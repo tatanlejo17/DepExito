@@ -1,0 +1,54 @@
+.marco{
+    padding-top: 1.5rem;
+}
+.link{
+    font-family: 'Baloo 2', cursive;
+    letter-spacing: 1px;
+    font-size: .9rem;
+    background-color: #b8b8b833;
+    margin-bottom: .8rem;
+    margin-right: 1rem;
+}
+.link:hover {
+    background-color: #1f1f1f49;
+    transition: ease-in .5s;
+}
+
+.sedes{
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.2rem;
+    border-top: dimgray 12px solid;
+    padding: 30px 120px;
+    background-color: #b4f2e167;
+    border-radius: 0px 0px 10px 10px;
+    width: 60%;
+    height: 400px;
+    resize: none;
+    display: none;
+}
+
+.cedi{
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.2rem;
+    border-top: dimgray 12px solid;
+    padding: 30px 120px;
+    background-color: #f2d7b467;
+    border-radius: 0px 0px 10px 10px;
+    width: 60%;
+    height: 400px;
+    resize: none;
+    display: none;
+}
+
+.dependencia{
+    font-family: 'Baloo 2', cursive;
+    font-size: 1.2rem;
+    border-top: dimgray 12px solid;
+    padding: 30px 120px;
+    background-color: #e0dede67;
+    border-radius: 0px 0px 10px 10px;
+    width: 60%;
+    height: 400px;
+    resize: none;
+    display: none;
+}
