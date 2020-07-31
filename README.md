@@ -1,3 +1,14 @@
+Proyecto Dependencias Exito
+
+Herramienta de búsqueda para datos de las dependencias Exito.
+
+Tecnologías usadas
+- React
+- Bootstrap
+- Material UI
+- Javascript puro
+- CSS
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
