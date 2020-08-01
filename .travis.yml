@@ -1,13 +1,15 @@
 lenguage: node_js
 node_js: 
     - 12.17.0
-cache: npm
-
-install: 
-    - npm install
-    - npm add gh-pages
+cache: yarn
 
 script: 
-    - npm run build
-    - gh-pages -d build
-    - npm run deploy
+    - yarn build
+
+deploy:
+    provider: pages
+    skpip_cleanup: true
+    github_token: $GITHUB_TOKEN
+    local_dir: build
+    on:
+        branch: master 
