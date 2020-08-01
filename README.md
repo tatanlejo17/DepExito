@@ -1,14 +1,15 @@
 ## Proyecto Dependencias Exito
 
-Herramienta de búsqueda para datos de las dependencias Exito.
+Herramienta de búsqueda para datos de las dependencias Exito
+(Práctica personal proyecto REACT en Github desplegado con TravisCI como herramienta de Integración)
 
 Tecnologías usadas
 - React
+- Travis CI (Integración Continua y Despliegue)
 - Bootstrap
 - Material UI
 - Javascript puro
 - CSS
-- Travis CI (Integración)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
