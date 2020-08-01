@@ -5,11 +5,9 @@ cache: npm
 
 install: 
     - npm install
-    - npm install gh-pages
+    - npm add gh-pages
 
 script: 
     - npm run build
-
-deploy:
     - gh-pages -d build
     - npm run deploy
