@@ -44,11 +44,11 @@
     font-family: 'Baloo 2', cursive;
     font-size: 1.2rem;
     border-top: dimgray 12px solid;
-    padding: 30px 110px;
+    padding: 40px 110px;
     background-color: #99f8ff59;
     border-radius: 0px 0px 10px 10px;
     width: 61%;
-    height: 500px;
+    height: 450px;
     resize: none;
     display: none;
 }
@@ -58,4 +58,8 @@
     color: #1f1f1f41;
     font-size: 5rem;
     text-align: center;
+}
+
+h5{
+    font-family: 'Baloo 2', cursive;
 }

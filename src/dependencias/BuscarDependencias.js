@@ -1,6 +1,6 @@
 import {dep} from '../data/dep';
 
-export default function BuscarDependencias(num) {
+export default function BuscarDependencias(n) {
 
     // Variables de control
     const resultado = document.getElementById("resultado");
@@ -13,22 +13,14 @@ export default function BuscarDependencias(num) {
 
     
     // Usar HighOrderFunction .filter() para la búsqueda
-    let search = dep.filter(d => d.num === num);
-    console.log(search[0]);
-    res.innerHTML = `
-        IP POS   ->   ${search[0].ipPos}
-        
-        *Codigo dependencia: ${search[0].num} 
-        *Nombre dependencia: ${search[0].nom}
-        *Tipo de equipo: 
-        *Serial: 
-        *Ciudad: ${search[0].ciudad} 
-        *Direccion: ${search[0].dir} 
-        *Piso-area: 
-        *Telefono: 
-        *Celular: 
-        *Horario de atencion: 
-        *Diagnostico: `;
+    let search = dep.filter(d => d.num === n);
 
+    res.innerHTML = `*Codigo dependencia: ${search[0].num} \n*Nombre dependencia: ${search[0].nom} \n*Tipo de equipo: \n*Serial: \n*Ciudad: ${search[0].ciudad} \n*Direccion: ${search[0].dir} \n*Piso-area: \n*Telefono: \n*Celular: \n*Horario de atencion: \n*Diagnostico: `;
+
+    let p = `
+        <h5>IP POS &nbsp --> &nbsp ${search[0].ipPos}</h5>
+    `;
+    resultado.innerHTML = p;
+        
 
 }

@@ -36,7 +36,13 @@ const style = {
 
 function Section(props) {
 
-  function BuscarDep(e) { BuscarDependencias(parseInt(e.target.value)) }
+  function BuscarDep(e) {
+    console.log(e.key);
+    //Capturar la tecla presionada y ejecutar la función cuando se de un ENTER
+    if (e.key == 'Enter') {
+      BuscarDependencias(parseInt(e.target.value))
+    }
+  }
   function Sede(e) { SedesAdm(parseInt(e.target.getAttribute('data-value'))) }
   function Cedi(e) { Cedis(parseInt(e.target.getAttribute('data-value'))) }
   
@@ -49,7 +55,7 @@ function Section(props) {
             label="Número Dependencia"
             name="numDep"
             margin="normal"
-            onKeyPress={BuscarDep}
+            onKeyPress={ BuscarDep }
           />
 
           <FormControl
@@ -110,7 +116,7 @@ function Section(props) {
         <div className="d-flex justify-content-center mt-5" id="resultado">
           <p>
             <h1 className="texto-inicial">
-              <i class="far fa-smile-wink fa-3x"></i>
+              <i className="far fa-smile-wink fa-3x"></i>
               <br />
               <br />
               Archivo Búsqueda de Dependencias Éxito
