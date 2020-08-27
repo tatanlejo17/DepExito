@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, InputLabel, Select, TextField, MenuItem, FormControl, Button, IconButton } from "@material-ui/core";
+import { Container, InputLabel, Select, TextField, MenuItem, FormControl, Button } from "@material-ui/core";
 import SedesAdm from '../data/sedes';
 import Cedis from '../data/cedis';
 import CopyPortapapeles from '../copyPortapapeles/copyPortapapeles';
@@ -39,7 +39,7 @@ function Section(props) {
   function BuscarDep(e) {
     console.log(e.key);
     //Capturar la tecla presionada y ejecutar la función cuando se de un ENTER
-    if (e.key == 'Enter') {
+    if (e.key === 'Enter') {
       BuscarDependencias(parseInt(e.target.value))
     }
   }
