@@ -155,7 +155,7 @@
     nom: "EXITO OCAÑA",
     num: 46,
     ipPos: "10.228.129.47",
-    ciudad: "Ocana",
+    ciudad: "Ocaña",
     dir: "Calle 11 # 10 - 63 Local 1",
     celular: "312 897 28 97",
     ext: "204604",

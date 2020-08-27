@@ -1,20 +1,16 @@
 import React from "react";
-import { Container, InputLabel, Select, TextField, MenuItem, FormControl, Button } from "@material-ui/core";
+import { Container, InputLabel, Select, TextField, MenuItem, FormControl, Button, IconButton } from "@material-ui/core";
 import SedesAdm from '../data/sedes';
 import Cedis from '../data/cedis';
 import CopyPortapapeles from '../copyPortapapeles/copyPortapapeles';
 import BuscarDependencias from '../dependencias/BuscarDependencias';
-import { dep } from '../data/dep';
 import '../App.css';
 
 const style = {
   paper: {
     marginTop: 30,
-    marginBottom: 50
+    marginBottom: 30
     // backgroundColor: "#ffe277"
-  },
-  prueba: {
-    // backgroundColor: "#a3f7bf",
   },
   form: {
     height: 100,
@@ -40,7 +36,7 @@ const style = {
 
 function Section(props) {
 
-  function BuscarDep(e) { BuscarDependencias(dep, parseInt(e.target.value)) }
+  function BuscarDep(e) { BuscarDependencias(parseInt(e.target.value)) }
   function Sede(e) { SedesAdm(parseInt(e.target.getAttribute('data-value'))) }
   function Cedi(e) { Cedis(parseInt(e.target.getAttribute('data-value'))) }
   
@@ -92,7 +88,6 @@ function Section(props) {
               labelId="demo-simple-select-outlined-label"
               id="demo-simple-select-outlined"
               label="Cedis"
-              // value={optionSede[a]}
               onClose={Cedi}
             >
               <MenuItem value={1}>Cedi Vegas</MenuItem>
@@ -112,7 +107,16 @@ function Section(props) {
           </Button>
         </form>
 
-        <div className="d-flex justify-content-center mt-5" id="resultado"></div>
+        <div className="d-flex justify-content-center mt-5" id="resultado">
+          <p>
+            <h1 className="texto-inicial">
+              <i class="far fa-smile-wink fa-3x"></i>
+              <br />
+              <br />
+              Archivo Búsqueda de Dependencias Éxito
+            </h1>
+          </p>
+        </div>
         <div className="d-flex justify-content-center mt-5">
           <textarea className="area" id="result" style={{display:"none"}} value=""></textarea>
         </div>
