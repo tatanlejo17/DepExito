@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/DepExito/static/css/main.ac75db91.chunk.css",
+    "main.js": "/DepExito/static/js/main.1d0c3838.chunk.js",
+    "main.js.map": "/DepExito/static/js/main.1d0c3838.chunk.js.map",
+    "runtime-main.js": "/DepExito/static/js/runtime-main.43537a0d.js",
+    "runtime-main.js.map": "/DepExito/static/js/runtime-main.43537a0d.js.map",
+    "static/js/2.2f32d70a.chunk.js": "/DepExito/static/js/2.2f32d70a.chunk.js",
+    "static/js/2.2f32d70a.chunk.js.map": "/DepExito/static/js/2.2f32d70a.chunk.js.map",
+    "index.html": "/DepExito/index.html",
+    "precache-manifest.22c9fc79116bcb4d1402e8bea8e0145f.js": "/DepExito/precache-manifest.22c9fc79116bcb4d1402e8bea8e0145f.js",
+    "service-worker.js": "/DepExito/service-worker.js",
+    "static/css/main.ac75db91.chunk.css.map": "/DepExito/static/css/main.ac75db91.chunk.css.map",
+    "static/js/2.2f32d70a.chunk.js.LICENSE.txt": "/DepExito/static/js/2.2f32d70a.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43537a0d.js",
+    "static/js/2.2f32d70a.chunk.js",
+    "static/css/main.ac75db91.chunk.css",
+    "static/js/main.1d0c3838.chunk.js"
+  ]
+}
