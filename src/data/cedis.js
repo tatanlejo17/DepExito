@@ -13,7 +13,7 @@ export default function Cedis(value) {
       break;
     case 2:
       res.innerHTML = "";
-      res.innerHTML = `*Codigo dependencia: 842 \n*Nombre dependencia: CEDI MONTEVIDEO \n*Tipo de equipo: \n*Serial: \n*Ciudad: Montevideo \n*Direccion: Cra 68 D # 21 - 25 \n*Piso-area: \n*Telefono: \n*Celular: \n*Horario de atencion: \n*Diagnostico: `;
+      res.innerHTML = `*Codigo dependencia: 842 \n*Nombre dependencia: CEDI MONTEVIDEO \n*Tipo de equipo: \n*Serial: \n*Ciudad: Bogota \n*Direccion: Cra 68 D # 21 - 25 \n*Piso-area: \n*Telefono: \n*Celular: \n*Horario de atencion: \n*Diagnostico: `;
       break;
     case 3:
       res.innerHTML = `*Codigo dependencia: 50 \n*Nombre dependencia: CEDI JUMBO \n*Tipo de equipo: \n*Serial: \n*Ciudad: Jumbo \n*Direccion: Cra 36 A 16-79 - Cali \n*Piso-area: \n*Telefono: \n*Celular: \n*Horario de atencion: \n*Diagnostico: `;
