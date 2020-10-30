@@ -104,6 +104,7 @@ function Section(props) {
               <MenuItem value={6}>Cedi Calima</MenuItem>
               <MenuItem value={7}>Cedi Funza</MenuItem>
               <MenuItem value={8}>Cedi Av68</MenuItem>
+              <MenuItem value={9}>Plataforma Cartagena</MenuItem>
             </Select>
           </FormControl>
 
