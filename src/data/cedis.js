@@ -44,7 +44,7 @@ export default function Cedis(value) {
             break;
 
         default:
-            console.log("No ingreso un valor válido!!");
+            console.log("Valor NO válido!!");
             break;
     }
 }
